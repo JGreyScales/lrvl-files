@@ -1,11 +1,11 @@
 <?php
-namespace Lrvl\DashboardApp;
+namespace Lrvl\FilesApp;
 
 use Illuminate\Support\ServiceProvider;
 
 use Illuminate\Support\Facades\View;
 
-class DashboardAppProvider extends ServiceProvider
+class FilesAppProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
