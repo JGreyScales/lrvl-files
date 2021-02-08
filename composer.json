@@ -1,5 +1,5 @@
 {
-    "name": "lrvl/template-app",
+    "name": "lrvl/files-app",
     "description": "Dashboard App for the Lrvl Hub.",
     "homepage": "https://cyrexag.com",
     "license": "MIT",
@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Lrvl\\TemplateApp\\": "src/"
+            "Lrvl\\FilesApp\\": "src/"
         },
         "files": [
             "src/app/Http/helpers.php"
@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Lrvl\\TemplateApp\\TemplateAppProvider"
+                "Lrvl\\FilesApp\\FilesAppProvider"
             ]
         }
     }
