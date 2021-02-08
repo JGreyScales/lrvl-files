@@ -1,0 +1,30 @@
+{
+    "name": "lrvl/template-app",
+    "description": "Dashboard App for the Lrvl Hub.",
+    "homepage": "https://cyrexag.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrew Gosselin",
+            "email": "maninasuitofficial@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Lrvl\\TemplateApp\\": "src/"
+        },
+        "files": [
+            "src/app/Http/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lrvl\\TemplateApp\\TemplateAppProvider"
+            ]
+        }
+    }
+}
